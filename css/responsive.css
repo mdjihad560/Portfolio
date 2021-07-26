@@ -1,0 +1,87 @@
+/*For bigger screen then normal 1500px desktop*/
+@media (min-width: 1500px) {
+  .container{
+    max-width: 1170px;
+  }
+}
+
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+
+/*For Tablet Layout*/
+@media (max-width: 991px) {
+.portfolio--menu {
+  display: none; 
+}
+.offcanves-menu{
+    display: block;
+}
+.menu-bar{
+    display: block;
+}
+.portfolio--banner-section {
+    padding: 140px 0 0;
+    min-height: 420px;
+}
+.portfolio--about-section {
+    padding: 100px 0;
+}
+.portfolio--about-wrap{
+    margin: 0;
+}
+.portfolio--about-thumb {
+    margin-bottom: 50px;
+}
+.portfolio--section {
+    padding: 0 0 100px;
+}
+
+}
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+
+.portfolio--banner-section{
+    background-image: none !important;
+}
+.portfolio--banner-content{
+    margin-bottom: 50px;
+}
+.portfolio--section {
+    padding: 0 0 70px;
+}
+.portfolio--section-title h2{
+    font-size: 30px;
+}
+
+.portfolio--contact-wrap{
+    padding: 0;
+}
+.fortfolio--other-info {
+    margin-top: 50px;
+}
+
+
+}
+
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+.p_logo, 
+.p_menu{
+    width: 50%;
+}
+.portfolio--banner-content h1{
+    font-size: 40px;
+}
+.portfolio--banner-content h3{
+    font-size: 24px;
+}
+.portfolio--contact-title h3{
+    font-size: 24px;
+}
+
+}
