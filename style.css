@@ -388,6 +388,20 @@ header.portfolio--header-section.sticky-menu{
   background-color: #000;
 }
 
+.default-btn_{
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px 25px;
+  transition: all 0.4s;
+  display: inline-block;
+  text-transform: uppercase;
+  background-color: #f44336;
+}
+.default-btn_:hover {
+  color: #fff;
+  background-color: #000;
+}
+
 /*---------------------------------------------------
   PORTFOLIO ABOUT SECTION
 ----------------------------------------------------*/
