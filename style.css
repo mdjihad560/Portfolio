@@ -152,6 +152,7 @@ input, textarea {
   border-radius: 3px;
   background-color: transparent;
   padding: 10px 20px !important;
+  transition: all 0.4s;
   border: 1px solid #fff !important;
 }
 textarea {
@@ -503,6 +504,10 @@ footer.portfolio--footer-section {
 .portfolio--input-field {
   margin-bottom: 20px;
 }
+.portfolio--input-field input:focus, 
+.portfolio--input-field textarea:focus {
+  border: 1px solid #f44336!important;
+}
 .portfolio--input-field input[type="submit"] {
     letter-spacing: 0.01em;
     color: #FFFFFF;
@@ -511,6 +516,12 @@ footer.portfolio--footer-section {
     margin-top: 10px;
     border: none !important;
     text-transform: uppercase;
+    transition: all 0.4s;
+    font-weight: 500;
+}
+.portfolio--input-field input[type="submit"]:hover{
+  color: #F44336;
+  background-color: #fff;
 }
 
 .fortfolio--other-info {
